@@ -939,3 +939,22 @@ footer {
   -ms-flex-align: center;
   align-items: center;
 }
+
+.mobileRes {
+  display: none;
+}
+
+@media screen and (max-width: 1300px) {
+  nav,
+  .homePage,
+  #about,
+  #projects,
+  #contact,
+  footer {
+    display: none;
+  }
+  .mobileRes {
+    text-align: center;
+    display: block;
+  }
+}
